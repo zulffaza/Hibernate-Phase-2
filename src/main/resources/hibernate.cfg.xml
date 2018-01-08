@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.Person"/>
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.User"/>
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.Authority"/>
+
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.Order" />
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.Product" />
+		<mapping class="com.blibli.future.phase2.springmvchibernateexample.model.OrderDetail" />
+    </session-factory>
+</hibernate-configuration>

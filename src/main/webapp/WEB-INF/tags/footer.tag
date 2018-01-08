@@ -1,0 +1,1 @@
+<span id="footer">spring-mvc-hibernate-example by <a href="http://www.highwise.com">Highwise</a></span>
